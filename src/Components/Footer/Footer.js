@@ -1,7 +1,9 @@
+import React from "react";
+
 function Footer() {
     return (
         <div className="footer">
-            <p>By Rachael</p>
+            <p>&copy Rachael</p>
         </div>
     );
 }

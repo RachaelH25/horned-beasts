@@ -1,10 +1,10 @@
 import "./App.css";
 
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Footer from "./Components/Footer/Footer";
 
-function App() {
+export default function App() {
     return (
         <div className="App">
             <Header />
@@ -13,5 +13,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

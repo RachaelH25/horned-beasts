@@ -10,26 +10,29 @@
     align-items: center;
     justify-items: center;
     width: 250px;
-    margin-right: 1rem;
+    margin: 0 1rem 1rem 0;
     border: solid black 1px;
 }
 
-/* main {
-    display: grid;
-    grid-template-rows: max-content;
+main {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
     margin: 0 10%;
-} */
+}
 
-main {
+span:hover {
+    cursor: pointer;
+}
+
+/* main {
     display: grid;
     gap: 20px;
-    grid-template-columns: 250px;
+    grid-template-columns: 250px 250px 250px;
     justify-content: center;
-}
+} */
 
 p {
     max-width: 250px;
@@ -42,8 +45,9 @@ h2 {
 
 /* @media (min-width: 425px) {
     grid-template-columns: 200px 200px;
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     grid-template-columns: 200px 200px 200px;
 } */
+/* is this because I am using display:grid?? */

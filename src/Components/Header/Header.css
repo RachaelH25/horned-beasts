@@ -1,0 +1,22 @@
+.header {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+form {
+    margin: 0 0 1rem 1rem;
+}
+
+option {
+    background-color: grey;
+    color: white;
+}
